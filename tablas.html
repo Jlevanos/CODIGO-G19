@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;  
+            margin-bottom: 20px;  
+        }
+    </style>
+    
+    
+    <title>Tablas html4</title>
+  </head>
+  <body>
+    <main>
+      <article>
+        <h1>tablas en htm5</h1>
+        <!--las tablas tienen 3 partes thead, tbody, tfoot-->
+        <table>
+          <thead>
+            <tr>
+                <th>N°</th>
+              <th>Nombre</th>
+              <th>Numero telefono</th>
+              <th>Opciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td>1</td>
+                <td>Guillermo</td>
+                <td>987654321</td>
+                <td><button>Editar</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Carla</td>
+                <td>98869721</td>
+                <td><button>Editar</button></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Sebastian</td>
+                <td>999565424</td>
+                <td><button>Editar</button></td>
+            </tr>
+
+          </tbody>
+          <tfoot></tfoot>
+        </table>
+
+<table>
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>DNI</th>
+            <th>Estado Civil</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Gillermo</td>
+            <td colspan="2">No existe mas datos</td>
+            
+        </tr>
+        <tr>
+            <td>Eduardo</td>
+            <td>12345678</td>
+            <td rowspan="2">soltero</td>
+        </tr>
+        <tr>
+            <td>Angel</td>
+            <td>12345678</td>
+        
+        </tr>
+    </tbody>
+</table>
+
+
+      </article>
+    </main>
+  </body>
+</html>
