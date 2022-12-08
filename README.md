@@ -41,3 +41,19 @@ git add --all
 git commit -m "cambio de la rama semana01"
 git push origin semana01
 ```
+
+## Para clonar una repositorio
+```
+git clone https://github.com/Jlevanos/CODIGO-G19.git
+```
+
+## Para descargar cambios a nivel repositorio
+
+```
+git fetch
+```
+## Para descargar cambios `dentro de una rama`
+
+```
+git pull origin semana02
+```
