@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+    /*evista que desborden a su elemento padre*/
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #20252c;
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    padding: 20px;
+    color: #fff;
+    min-height: 100vh;/*AVERIGUAR por las huevas*/
+}
+.articulo {
+    width: 700px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+.video-youtube, .imagen {
+    padding: 40px 0;
+
+}
+.video-youtube iframe {
+    display: block; /*para central el video en div tiene que ir acompañado del margin 0 auto*/
+    margin: 0 auto;
+}
+
+.imagen img {
+    display: block;/*para central la imagen en div tiene que ir acompañado del margin 0 auto*/
+    margin: 0 auto;
+}
+.referencia-link {
+    color: rgb(216, 216, 216);
+    font-weight: 600;  
+}
+.referencia {
+    margin-bottom: 100px;
+}
+
+.cabecera-navegacion {
+    height: 60px;
+    /*background-color: #20252c;*/
+  }
+  .menu-navegacion {
+    max-width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    color: #fff;
+  }
+
+  .menu-navegacion ul {
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  .logo-navegacion {
+    margin-right: auto;
+    font-size: 30px;
+  }
+  .link-navegacion {
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  .link-boton {
+    background-color: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    color: #454545;
+    cursor: pointer;
+  }
