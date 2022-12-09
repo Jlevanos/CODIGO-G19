@@ -28,11 +28,11 @@ body::after {
 }
 
 main {
-  padding: 20px;
+  
   color: #fff;
   min-height: 100vh; /*AVERIGUAR por las huevas*/
 }
-.articulo {
+.articulo, .formulario {
   width: 700px;
   margin: 0 auto;
 }
@@ -88,6 +88,17 @@ h1 {
   margin-left: 20px;
   cursor: pointer;
 }
+
+.logo-navegacion a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-navegacion a {
+  color: #fff;
+  text-decoration: none;
+
+}
 .link-boton {
   background-color: #fff;
   padding: 8px 15px;
@@ -103,4 +114,54 @@ h1 {
 }
 .link-boton:active {
   background-color: red;
+}
+
+
+.formulario {
+  height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
+  
+}
+
+.formulario form {
+  border: 2px solid #fff;
+  padding: 40px;
+  border-radius: 20px;
+  width: 100%;
+  
+}
+
+.form-control input, textarea{
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 5px 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.form-control input {
+  height: 30px;
+}
+
+.form-control label {
+  margin-bottom: 6px;
+}
+.form-botones button{
+  display: block;/*se tiene que usar esta etique para que funcione el margin-left: auto*/
+  border: none;
+  outline: none;
+  color: #20252c;
+  background-color: #fff;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: 600;
+  margin-left: auto;
+  cursor: pointer;
+
+}
+.form-botones button:hover {
+  background-color: rgb(12, 151, 226);
+  color: #fff;
 }
